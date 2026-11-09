@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+pandas
+openpyxl
+xlrd
+transformers
+torch
+scikit-learn
+google-genai
+reportlab
+python-dotenv
+pytest
