@@ -41,6 +41,7 @@ jalankan perintah berikut di terminal:
 ```bash
 cd backend
 .\.venv\Scripts\activate
+pip install -r requirements.txt
 python app.py
 ```
 * Backend API akan aktif di: `http://localhost:8000`
