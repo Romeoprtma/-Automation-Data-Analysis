@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   experimental: {
     agentFeedback: true,
   },
-  cacheComponents: true,
-  // partialPrefetching: true, <-- HAPUS ATAU BERI KOMENTAR PADA BARIS INI
+  cacheComponents: false,       // <-- UBAH MENJADI false
+  partialPrefetching: false,    // <-- TAMBAHKAN DAN SET KE false
   reactCompiler: true,
   turbopack: {
     rules: {
